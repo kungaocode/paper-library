@@ -1,0 +1,208 @@
+ # HKUST AIE Application Knowledge Base
+
+ ## 模型安全
+ 
+ ### 微调安全
+ - **Refusal in Language Models Is Mediated by a Single Direction**
+   - 论文路径: [Refusal in Language Models Is Mediated by a Single Direction](/home/kun/Desktop/paper/completed/01_微调安全_机理与测量/Refusal in Language Models Is Mediated by a Single Direction.pdf)
+   - 该论文研究了语言模型在拒绝执行某些任务时的行为模式，并发现这种行为可以通过单一方向进行中介。
+ - **Navigating the Safety Landscape - Measuring Risks in Finetuning Large Language Models**
+   - 论文路径: [Navigating the Safety Landscape - Measuring Risks in Finetuning Large Language Models](/home/kun/Desktop/paper/completed/01_微调安全_机理与测量/Navigating the Safety Landscape - Measuring Risks in Finetuning Large Language Models.pdf)
+   - 该论文探讨了在微调大型语言模型时的安全风险，并提出了评估这些风险的方法。
+ - **Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To**
+   - 论文路径: [Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To](/home/kun/Desktop/paper/completed/01_微调安全_机理与测量/Fine-tuning Aligned Language Models Compromises Safety, Even When Users Do Not Intend To.pdf)
+   - 该论文指出即使用户无意中进行微调，也可能导致对齐语言模型的安全性受损。
+
+ ### 防御方法
+ - **Few Tokens Big Leverage - Preserving Safety Alignment by Constraining Safety Tokens during Fine-tuning**
+   - 论文路径: [Few Tokens Big Leverage - Preserving Safety Alignment by Constraining Safety Tokens during Fine-tuning](/home/kun/Desktop/paper/completed/02_微调安全_防御方法/Few Tokens Big Leverage - Preserving Safety Alignment by Constraining Safety Tokens during Fine-tuning.pdf)
+   - 该论文提出了一种通过在微调过程中约束安全令牌来保持安全对齐的方法。
+ - **Safe LoRA - the Silver Lining of Reducing Safety Risks when Fine-tuning Large Language Models**
+   - 论文路径: [Safe LoRA - the Silver Lining of Reducing Safety Risks when Fine-tuning Large Language Models](/home/kun/Desktop/paper/completed/02_微调安全_防御方法/Safe LoRA - the Silver Lining of Reducing Safety Risks when Fine-tuning Large Language Models.pdf)
+   - 该论文介绍了一种称为 Safe LoRA 的方法，可以在微调大型语言模型时减少安全风险。
+ - **Safeguard Fine-Tuned LLMs Through Pre- and Post-Tuning Model Merging**
+   - 论文路径: [Safeguard Fine-Tuned LLMs Through Pre- and Post-Tuning Model Merging](/home/kun/Desktop/paper/completed/02_微调安全_防御方法/Safeguard Fine-Tuned LLMs Through Pre- and Post-Tuning Model Merging.pdf)
+   - 该论文提出了一种通过预调和后调模型合并来保护微调后的大型语言模型的方法。
+ - **SafeMERGE - Preserving Safety Alignment in Fine-Tuned LLMs via Selective Layer-Wise Model Merging**
+   - 论文路径: [SafeMERGE - Preserving Safety Alignment in Fine-Tuned LLMs via Selective Layer-Wise Model Merging](/home/kun/Desktop/paper/completed/02_微调安全_防御方法/SafeMERGE - Preserving Safety Alignment in Fine-Tuned LLMs via Selective Layer-Wise Model Merging.pdf)
+   - 该论文介绍了一种称为 SafeMERGE 的方法，通过选择性地逐层合并模型来保持微调后大型语言模型的安全对齐。
+ - **Mitigating Fine-tuning Risks in LLMs via Safety-Aware Probing Optimization (SAP)**
+   - 论文路径: [Mitigating Fine-tuning Risks in LLMs via Safety-Aware Probing Optimization (SAP)](/home/kun/Desktop/paper/completed/02_微调安全_防御方法/Mitigating Fine-tuning Risks in LLMs via Safety-Aware Probing Optimization (SAP).pdf)
+   - 该论文提出了一种通过安全感知探测优化（SAP）来减轻大型语言模型微调风险的方法。
+
+ ### 越狱攻击与防御
+ - **Explaining and Harnessing Adversarial Examples (FGSM)**
+   - 论文路径: [Explaining and Harnessing Adversarial Examples (FGSM)](/home/kun/Desktop/paper/completed/03_越狱攻击与防御/Explaining and Harnessing Adversarial Examples (FGSM).pdf)
+   - 该论文解释了对抗样本（如 FGSM）的原理，并提出了利用这些样本的方法。
+ - **MultiBreak - A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety**
+   - 论文路径: [MultiBreak - A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety](/home/kun/Desktop/paper/completed/03_越狱攻击与防御/MultiBreak - A Scalable and Diverse Multi-turn Jailbreak Benchmark for Evaluating LLM Safety.pdf)
+   - 该论文提出了一种可扩展且多样化的多轮越狱基准测试，用于评估大型语言模型的安全性。
+ - **Towards Deep Learning Models Resistant to Adversarial Attacks (PGD)**
+   - 论文路径: [Towards Deep Learning Models Resistant to Adversarial Attacks (PGD)](/home/kun/Desktop/paper/completed/03_越狱攻击与防御/Towards Deep Learning Models Resistant to Adversarial Attacks (PGD).pdf)
+   - 该论文探讨了如何使深度学习模型对对抗攻击（如 PGD）具有抵抗力。
+ - **SmoothLLM - Defending Large Language Models Against Jailbreaking Attacks**
+   - 论文路径: [SmoothLLM - Defending Large Language Models Against Jailbreaking Attacks](/home/kun/Desktop/paper/completed/03_越狱攻击与防御/SmoothLLM - Defending Large Language Models Against Jailbreaking Attacks.pdf)
+   - 该论文介绍了一种称为 SmoothLLM 的方法，用于防御大型语言模型免受越狱攻击。
+ - **Efficient LLM Jailbreak via Adaptive Dense-to-sparse Constrained Optimization (ADC)**
+   - 论文路径: [Efficient LLM Jailbreak via Adaptive Dense-to-sparse Constrained Optimization (ADC)](/home/kun/Desktop/paper/completed/03_越狱攻击与防御/Efficient LLM Jailbreak via Adaptive Dense-to-sparse Constrained Optimization (ADC).pdf)
+   - 该论文提出了一种通过自适应密集到稀疏约束优化（ADC）来实现高效越狱的方法。
+ - **Efficient LLM-Jailbreaking via Multimodal-LLM Jailbreak (AAAI-26)**
+   - 论文路径: [Efficient LLM-Jailbreaking via Multimodal-LLM Jailbreak (AAAI-26)](/home/kun/Desktop/paper/completed/03_越狱攻击与防御/Efficient LLM-Jailbreaking via Multimodal-LLM Jailbreak (AAAI-26).pdf)
+   - 该论文提出了一种通过多模态大型语言模型越狱来实现高效越狱的方法。
+ - **Universal and Transferable Adversarial Attacks on Aligned Language Models (GCG)**
+   - 论文路径: [Universal and Transferable Adversarial Attacks on Aligned Language Models (GCG)](/home/kun/Desktop/paper/completed/03_越狱攻击与防御/Universal and Transferable Adversarial Attacks on Aligned Language Models (GCG).pdf)
+   - 该论文研究了对齐语言模型上的通用和可迁移对抗攻击。
+
+ ### 智能体安全与提示注入
+ - **Jailbreaking Embodied LLMs via Action-Level Manipulation (Blindfold)**
+   - 论文路径: [Jailbreaking Embodied LLMs via Action-Level Manipulation (Blindfold)](/home/kun/Desktop/paper/completed/04_智能体安全与提示注入/Jailbreaking Embodied LLMs via Action-Level Manipulation (Blindfold).pdf)
+   - 该论文提出了一种通过动作级别的操纵来越狱实体化大型语言模型的方法。
+ - **LLM Agents can Autonomously Hack Websites**
+   - 论文路径: [LLM Agents can Autonomously Hack Websites](/home/kun/Desktop/paper/completed/04_智能体安全与提示注入/LLM Agents can Autonomously Hack Websites.pdf)
+   - 该论文探讨了大型语言模型代理可以自主攻击网站的现象。
+ - **Not What You've Signed Up For - Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection**
+   - 论文路径: [Not What You've Signed Up For - Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](/home/kun/Desktop/paper/completed/04_智能体安全与提示注入/Not What You've Signed Up For - Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection.pdf)
+   - 该论文研究了通过间接提示注入来破坏现实世界中的大型语言模型集成应用程序的问题。
+
+ ## 模型性能演化
+ 
+ ### 参数高效微调
+ - **QLoRA - Efficient Finetuning of Quantized LLMs**
+   - 论文路径: [QLoRA - Efficient Finetuning of Quantized LLMs](/home/kun/Desktop/paper/completed/07_参数高效微调/QLoRA - Efficient Finetuning of Quantized LLMs.pdf)
+   - 该论文提出了一种高效微调量化大型语言模型的方法。
+ - **DoRA - Weight-Decomposed Low-Rank Adaptation**
+   - 论文路径: [DoRA - Weight-Decomposed Low-Rank Adaptation](/home/kun/Desktop/paper/completed/07_参数高效微调/DoRA - Weight-Decomposed Low-Rank Adaptation.pdf)
+   - 该论文介绍了一种称为 DoRA 的方法，通过权重分解低秩适应来提高微调效率。
+ - **LoRA - Low-Rank Adaptation of Large Language Models**
+   - 论文路径: [LoRA - Low-Rank Adaptation of Large Language Models](/home/kun/Desktop/paper/completed/07_参数高效微调/LoRA - Low-Rank Adaptation of Large Language Models.pdf)
+   - 该论文提出了一种称为 LoRA 的方法，通过低秩适应来提高大型语言模型的微调效率。
+
+ ### 推理与思维链
+ - **Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters**
+   - 论文路径: [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](/home/kun/Desktop/paper/completed/08_推理与思维链/Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters.pdf)
+   - 该论文探讨了在测试时优化计算资源分配比增加模型参数更为有效的方法。
+ - **Large Language Models Cannot Self-Correct Reasoning Yet**
+   - 论文路径: [Large Language Models Cannot Self-Correct Reasoning Yet](/home/kun/Desktop/paper/completed/08_推理与思维链/Large Language Models Cannot Self-Correct Reasoning Yet.pdf)
+   - 该论文指出当前大型语言模型尚不能自我纠正推理过程。
+ - **Plan-and-Solve Prompting - Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models**
+   - 论文路径: [Plan-and-Solve Prompting - Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models](/home/kun/Desktop/paper/completed/08_推理与思维链/Plan-and-Solve Prompting - Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models.pdf)
+   - 该论文提出了一种称为 Plan-and-Solve 提示的方法，通过改进零样本思维链推理来提高大型语言模型的推理能力。
+ - **DeepSeek-R1 - Incentivizing Reasoning Capability in LLMs via Reinforcement Learning**
+   - 论文路径: [DeepSeek-R1 - Incentivizing Reasoning Capability in LLMs via Reinforcement Learning](/home/kun/Desktop/paper/completed/08_推理与思维链/DeepSeek-R1 - Incentivizing Reasoning Capability in LLMs via Reinforcement Learning.pdf)
+   - 该论文介绍了一种通过强化学习激励大型语言模型推理能力的方法。
+ - **Tree of Thoughts - Deliberate Problem Solving with Large Language Models**
+   - 论文路径: [Tree of Thoughts - Deliberate Problem Solving with Large Language Models](/home/kun/Desktop/paper/completed/08_推理与思维链/Tree of Thoughts - Deliberate Problem Solving with Large Language Models.pdf)
+   - 该论文提出了一种称为思维树的方法，通过有意识的问题解决来提高大型语言模型的推理能力。
+ - **Chain-of-Thought Prompting Elicits Reasoning in Large Language Models**
+   - 论文路径: [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](/home/kun/Desktop/paper/completed/08_推理与思维链/Chain-of-Thought Prompting Elicits Reasoning in Large Language Models.pdf)
+   - 该论文探讨了通过思维链提示来激发大型语言模型的推理能力。
+ - **Let's Verify Step by Step**
+   - 论文路径: [Let's Verify Step by Step](/home/kun/Desktop/paper/completed/08_推理与思维链/Let's Verify Step by Step.pdf)
+   - 该论文提出了一种逐步验证的方法来提高大型语言模型的推理能力。
+ - **Quiet-STaR - Language Models Can Teach Themselves to Think Before Speaking**
+   - 论文路径: [Quiet-STaR - Language Models Can Teach Themselves to Think Before Speaking](/home/kun/Desktop/paper/completed/08_推理与思维链/Quiet-STaR - Language Models Can Teach Themselves to Think Before Speaking.pdf)
+   - 该论文介绍了一种称为 Quiet-STaR 的方法，使语言模型能够在说话前自我思考。
+ - **Towards Understanding Chain-of-Thought Prompting - An Empirical Study of What Matters**
+   - 论文路径: [Towards Understanding Chain-of-Thought Prompting - An Empirical Study of What Matters](/home/kun/Desktop/paper/completed/08_推理与思维链/Towards Understanding Chain-of-Thought Prompting - An Empirical Study of What Matters.pdf)
+   - 该论文通过实证研究探讨了思维链提示的有效性。
+ - **Faith and Fate - Limits of Transformers on Compositionality**
+   - 论文路径: [Faith and Fate - Limits of Transformers on Compositionality](/home/kun/Desktop/paper/completed/08_推理与思维链/Faith and Fate - Limits of Transformers on Compositionality.pdf)
+   - 该论文研究了 Transformer 在组合性方面的局限性。
+
+ ### 对齐数据与偏好优化
+ - **LIMA - Less Is More for Alignment**
+   - 论文路径: [LIMA - Less Is More for Alignment](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/LIMA - Less Is More for Alignment.pdf)
+   - 该论文提出了一种称为 LIMA 的方法，通过更少的数据来实现更好的对齐。
+ - **WizardLM - Empowering Large Pre-Trained Language Models to Follow Complex Instructions**
+   - 论文路径: [WizardLM - Empowering Large Pre-Trained Language Models to Follow Complex Instructions](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/WizardLM - Empowering Large Pre-Trained Language Models to Follow Complex Instructions.pdf)
+   - 该论文介绍了一种称为 WizardLM 的方法，使大型预训练语言模型能够遵循复杂的指令。
+ - **Magpie - Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing**
+   - 论文路径: [Magpie - Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/Magpie - Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing.pdf)
+   - 该论文提出了一种称为 Magpie 的方法，通过提示对齐的语言模型来从零合成对齐数据。
+ - **Training Language Models to Follow Instructions with Human Feedback (InstructGPT)**
+   - 论文路径: [Training Language Models to Follow Instructions with Human Feedback (InstructGPT)](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/Training Language Models to Follow Instructions with Human Feedback (InstructGPT).pdf)
+   - 该论文介绍了通过人类反馈来训练语言模型遵循指令的方法。
+ - **AlpaGasus - Training a Better Alpaca with Fewer Data**
+   - 论文路径: [AlpaGasus - Training a Better Alpaca with Fewer Data](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/AlpaGasus - Training a Better Alpaca with Fewer Data.pdf)
+   - 该论文提出了一种通过更少的数据来训练更好的 Alpaca 模型的方法。
+ - **ORPO - Monolithic Preference Optimization without Reference Model**
+   - 论文路径: [ORPO - Monolithic Preference Optimization without Reference Model](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/ORPO - Monolithic Preference Optimization without Reference Model.pdf)
+   - 该论文介绍了一种称为 ORPO 的方法，通过单块偏好优化来实现无需参考模型的对齐。
+ - **Textbooks Are All You Need (phi-1)**
+   - 论文路径: [Textbooks Are All You Need (phi-1)](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/Textbooks Are All You Need (phi-1).pdf)
+   - 该论文提出了一种仅使用教科书数据来实现对齐的方法。
+ - **Direct Preference Optimization - Your Language Model is Secretly a Reward Model**
+   - 论文路径: [Direct Preference Optimization - Your Language Model is Secretly a Reward Model](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/Direct Preference Optimization - Your Language Model is Secretly a Reward Model.pdf)
+   - 该论文提出了一种直接偏好优化的方法，揭示了语言模型实际上是一个奖励模型。
+ - **Constitutional AI - Harmlessness from AI Feedback**
+   - 论文路径: [Constitutional AI - Harmlessness from AI Feedback](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/Constitutional AI - Harmlessness from AI Feedback.pdf)
+   - 该论文介绍了一种称为 Constitutional AI 的方法，通过 AI 反馈来实现无害性。
+ - **Self-Instruct - Aligning Language Models with Self-Generated Instructions**
+   - 论文路径: [Self-Instruct - Aligning Language Models with Self-Generated Instructions](/home/kun/Desktop/paper/completed/06_对齐_数据与偏好优化/Self-Instruct - Aligning Language Models with Self-Generated Instructions.pdf)
+   - 该论文提出了一种通过自动生成的指令来对齐语言模型的方法。
+
+ ## 模型高效应用
+ 
+ ### 智能体与工具使用
+ - **WebGPT - Browser-assisted Question-answering with Human Feedback**
+   - 论文路径: [WebGPT - Browser-assisted Question-answering with Human Feedback](/home/kun/Desktop/paper/completed/10_智能体与工具使用/WebGPT - Browser-assisted Question-answering with Human Feedback.pdf)
+   - 该论文提出了一种通过浏览器辅助和人类反馈来进行问答的方法。
+ - **ToolQA - A Dataset for LLM Question Answering with External Tools**
+   - 论文路径: [ToolQA - A Dataset for LLM Question Answering with External Tools](/home/kun/Desktop/paper/completed/10_智能体与工具使用/ToolQA - A Dataset for LLM Question Answering with External Tools.pdf)
+   - 该论文介绍了一个用于外部工具辅助的大规模语言模型问答的数据集。
+ - **ReAct - Synergizing Reasoning and Acting in Language Models**
+   - 论文路径: [ReAct - Synergizing Reasoning and Acting in Language Models](/home/kun/Desktop/paper/completed/10_智能体与工具使用/ReAct - Synergizing Reasoning and Acting in Language Models.pdf)
+   - 该论文提出了一种称为 ReAct 的方法，通过协同推理和行动来提高语言模型的能力。
+ - **VOYAGER - An Open-Ended Embodied Agent with Large Language Models**
+   - 论文路径: [VOYAGER - An Open-Ended Embodied Agent with Large Language Models](/home/kun/Desktop/paper/completed/10_智能体与工具使用/VOYAGER - An Open-Ended Embodied Agent with Large Language Models.pdf)
+   - 该论文介绍了一种称为 VOYAGER 的开放性实体化代理，结合了大型语言模型。
+ - **WebArena - A Realistic Web Environment for Building Autonomous Agents**
+   - 论文路径: [WebArena - A Realistic Web Environment for Building Autonomous Agents](/home/kun/Desktop/paper/completed/10_智能体与工具使用/WebArena - A Realistic Web Environment for Building Autonomous Agents.pdf)
+   - 该论文介绍了一种称为 WebArena 的真实网络环境，用于构建自主代理。
+ - **ToolLLM - Facilitating Large Language Models to Master 16000+ Real-World APIs**
+   - 论文路径: [ToolLLM - Facilitating Large Language Models to Master 16000+ Real-World APIs](/home/kun/Desktop/paper/completed/10_智能体与工具使用/ToolLLM - Facilitating Large Language Models to Master 16000+ Real-World APIs.pdf)
+   - 该论文提出了一种称为 ToolLLM 的方法，帮助大型语言模型掌握超过 16000 个实际 API。
+
+ ### 评测基准与工具
+ - **AlpacaFarm - A Simulation Framework for Methods that Learn from Human Feedback**
+   - 论文路径: [AlpacaFarm - A Simulation Framework for Methods that Learn from Human Feedback](/home/kun/Desktop/paper/completed/05_评测基准与工具/AlpacaFarm - A Simulation Framework for Methods that Learn from Human Feedback.pdf)
+   - 该论文介绍了一种称为 AlpacaFarm 的模拟框架，用于从人类反馈中学习的方法。
+ - **TrustLLM - Trustworthiness in Large Language Models**
+   - 论文路径: [TrustLLM - Trustworthiness in Large Language Models](/home/kun/Desktop/paper/completed/05_评测基准与工具/TrustLLM - Trustworthiness in Large Language Models.pdf)
+   - 该论文探讨了大型语言模型的可信度问题。
+ - **Holistic Evaluation of Language Models (HELM)**
+   - 论文路径: [Holistic Evaluation of Language Models (HELM)](/home/kun/Desktop/paper/completed/05_评测基准与工具/Holistic Evaluation of Language Models (HELM).pdf)
+   - 该论文提出了一种全面评估语言模型的方法。
+ - **Length-Controlled AlpacaEval - A Simple Way to Debias Automatic Evaluators**
+   - 论文路径: [Length-Controlled AlpacaEval - A Simple Way to Debias Automatic Evaluators](/home/kun/Desktop/paper/completed/05_评测基准与工具/Length-Controlled AlpacaEval - A Simple Way to Debias Automatic Evaluators.pdf)
+   - 该论文提出了一种通过长度控制来消除自动评估器偏差的方法。
+ - **garak - A Framework for Security Probing Large Language Models**
+   - 论文路径: [garak - A Framework for Security Probing Large Language Models](/home/kun/Desktop/paper/completed/05_评测基准与工具/garak - A Framework for Security Probing Large Language Models.pdf)
+   - 该论文介绍了一种称为 garak 的框架，用于大型语言模型的安全探测。
+
+ ### 检索增强生成
+ - **Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks**
+   - 论文路径: [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](/home/kun/Desktop/paper/completed/11_检索增强生成/Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks.pdf)
+   - 该论文提出了一种通过检索增强生成来处理知识密集型 NLP 任务的方法。
+ - **RAGAS - Automated Evaluation of Retrieval Augmented Generation**
+   - 论文路径: [RAGAS - Automated Evaluation of Retrieval Augmented Generation](/home/kun/Desktop/paper/completed/11_检索增强生成/RAGAS - Automated Evaluation of Retrieval Augmented Generation.pdf)
+   - 该论文介绍了一种称为 RAGAS 的自动化评估方法，用于检索增强生成。
+ - **CRAG - Corrective Retrieval Augmented Generation**
+   - 论文路径: [CRAG - Corrective Retrieval Augmented Generation](/home/kun/Desktop/paper/completed/11_检索增强生成/CRAG - Corrective Retrieval Augmented Generation.pdf)
+   - 该论文提出了一种称为 CRAG 的方法，通过矫正检索增强生成来提高生成质量。
+ - **Self-RAG - Learning to Retrieve, Generate, and Critique through Self-Reflection**
+   - 论文路径: [Self-RAG - Learning to Retrieve, Generate, and Critique through Self-Reflection](/home/kun/Desktop/paper/completed/11_检索增强生成/Self-RAG - Learning to Retrieve, Generate, and Critique through Self-Reflection.pdf)
+   - 该论文提出了一种称为 Self-RAG 的方法，通过自我反思来学习检索、生成和批评。
+
+ ## 安全范式与综述
+ 
+ - **人工智能内生安全机制研究**
+   - 论文路径: [人工智能内生安全机制研究](/home/kun/Desktop/paper/completed/12_安全范式与综述/人工智能内生安全机制研究.pdf)
+   - 该论文研究了人工智能系统内部的安全机制。
+ - **A Survey on LLM Security and Privacy - The Good, The Bad, and The Ugly**
+   - 论文路径: [A Survey on LLM Security and Privacy - The Good, The Bad, and The Ugly](/home/kun/Desktop/paper/completed/12_安全范式与综述/A Survey on LLM Security and Privacy - The Good, The Bad, and The Ugly.pdf)
+   - 该论文综述了大型语言模型的安全性和隐私问题。
+ - **网络空间内生安全发展范式**
+   - 论文路径: [网络空间内生安全发展范式](/home/kun/Desktop/paper/completed/12_安全范式与综述/网络空间内生安全发展范式.pdf)
+   - 该论文探讨了网络空间内生安全的发展范式。
+

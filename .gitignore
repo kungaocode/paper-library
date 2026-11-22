@@ -1,0 +1,43 @@
+# ===== Secrets & local config =====
+.env
+.env.*
+!.env.example
+api.txt
+
+# ===== Paper library (not published) =====
+completed/
+_archive/
+translete/
+_work/
+need_organization/*
+!need_organization/.gitkeep
+
+# ===== Runtime data =====
+storage/
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ===== Node / Next.js =====
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+npm-debug.log*
+yarn-error.log*
+
+# ===== Tooling / editor =====
+.claude/
+.codex/
+.agents/
+.aws/
+.DS_Store
